@@ -1,0 +1,605 @@
+{
+  "version": "0.4",
+  "title": "Lovable Pro - Página de Vendas",
+  "type": "page",
+  "page_settings": {
+    "background_background": "classic",
+    "background_color": "#000000",
+    "custom_css": "body { font-family: 'Inter', sans-serif; }"
+  },
+  "content": [
+    {
+      "id": "hero-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#000000",
+        "background_color_b": "#1a1a1a",
+        "background_gradient_angle": {"unit": "deg", "size": 135},
+        "padding": {"unit": "px", "top": "100", "right": "0", "bottom": "100", "left": "0"},
+        "min_height": {"unit": "vh", "size": 100}
+      },
+      "elements": [
+        {
+          "id": "hero-column",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "hero-badge",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='display: inline-flex; align-items: center; padding: 8px 16px; border-radius: 9999px; background: rgba(0,255,255,0.1); border: 1px solid rgba(0,255,255,0.2); margin-bottom: 24px;'><span style='color: #00ffff; font-size: 14px; font-weight: 500;'>🎬 Curso Completo</span></div>",
+                "align": "center"
+              }
+            },
+            {
+              "id": "hero-title",
+              "elType": "widget", 
+              "widgetType": "heading",
+              "settings": {
+                "title": "Transforme <span style='color: #00ffff;'>Ideias</span> em Páginas <span style='color: #00ffff;'>Incríveis</span> com Lovable",
+                "size": "custom",
+                "custom_size": {"unit": "px", "size": 72},
+                "color": "#ffffff",
+                "typography_font_family": "Inter",
+                "typography_font_weight": "900",
+                "align": "center",
+                "margin": {"unit": "px", "bottom": "24"}
+              }
+            },
+            {
+              "id": "hero-subtitle",
+              "elType": "widget",
+              "widgetType": "text-editor", 
+              "settings": {
+                "editor": "<p style='font-size: 24px; color: #d1d5db; text-align: center; margin-bottom: 32px; line-height: 1.5;'>Aprenda a dominar a ferramenta de criação de páginas que mais cresce no Brasil.</p>",
+                "align": "center"
+              }
+            },
+            {
+              "id": "hero-cta",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "🚀 Quero Aprender Agora",
+                "size": "lg",
+                "background_color": "#00ffff",
+                "color": "#000000",
+                "typography_font_weight": "700",
+                "border_radius": {"unit": "px", "size": 12},
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 0, "blur": 30, "spread": 0, "color": "rgba(0,255,255,0.5)"},
+                "align": "center",
+                "link": {"url": "#formulario", "is_external": "", "nofollow": ""}
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "target-audience-section", 
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#000000",
+        "padding": {"unit": "px", "top": "80", "right": "0", "bottom": "80", "left": "0"}
+      },
+      "elements": [
+        {
+          "id": "target-column",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "target-title",
+              "elType": "widget",
+              "widgetType": "heading", 
+              "settings": {
+                "title": "Para Quem é Esse <span style='color: #00ffff;'>Curso?</span>",
+                "size": "custom",
+                "custom_size": {"unit": "px", "size": 48},
+                "color": "#ffffff",
+                "align": "center",
+                "margin": {"unit": "px", "bottom": "60"}
+              }
+            },
+            {
+              "id": "target-grid",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px; max-width: 1200px; margin: 0 auto;'><div style='background: #1a1a1a; border: 1px solid rgba(0,255,255,0.2); border-radius: 12px; padding: 24px; transition: all 0.3s ease;'><div style='width: 64px; height: 64px; background: rgba(0,255,255,0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px;'><span style='color: #00ffff; font-size: 32px;'>💼</span></div><h3 style='color: #ffffff; font-size: 20px; font-weight: 700; margin-bottom: 12px;'>Empreendedores e Infoprodutores</h3><p style='color: #9ca3af; line-height: 1.6;'>Crie suas próprias páginas de vendas sem depender de terceiros</p></div><div style='background: #1a1a1a; border: 1px solid rgba(0,255,255,0.2); border-radius: 12px; padding: 24px;'><div style='width: 64px; height: 64px; background: rgba(0,255,255,0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px;'><span style='color: #00ffff; font-size: 32px;'>🎨</span></div><h3 style='color: #ffffff; font-size: 20px; font-weight: 700; margin-bottom: 12px;'>Designers Iniciantes e Experientes</h3><p style='color: #9ca3af; line-height: 1.6;'>Acelere seu processo criativo com ferramentas visuais</p></div><div style='background: #1a1a1a; border: 1px solid rgba(0,255,255,0.2); border-radius: 12px; padding: 24px;'><div style='width: 64px; height: 64px; background: rgba(0,255,255,0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px;'><span style='color: #00ffff; font-size: 32px;'>👥</span></div><h3 style='color: #ffffff; font-size: 20px; font-weight: 700; margin-bottom: 12px;'>Agências e Freelancers</h3><p style='color: #9ca3af; line-height: 1.6;'>Ofereça mais serviços e aumente sua margem de lucro</p></div><div style='background: #1a1a1a; border: 1px solid rgba(0,255,255,0.2); border-radius: 12px; padding: 24px;'><div style='width: 64px; height: 64px; background: rgba(0,255,255,0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px;'><span style='color: #00ffff; font-size: 32px;'>📢</span></div><h3 style='color: #ffffff; font-size: 20px; font-weight: 700; margin-bottom: 12px;'>Criadores de Conteúdo</h3><p style='color: #9ca3af; line-height: 1.6;'>Construa sua presença online com páginas profissionais</p></div><div style='background: #1a1a1a; border: 1px solid rgba(0,255,255,0.2); border-radius: 12px; padding: 24px;'><div style='width: 64px; height: 64px; background: rgba(0,255,255,0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px;'><span style='color: #00ffff; font-size: 32px;'>🎯</span></div><h3 style='color: #ffffff; font-size: 20px; font-weight: 700; margin-bottom: 12px;'>Quem quer Independência</h3><p style='color: #9ca3af; line-height: 1.6;'>Pare de depender de programadores para suas ideias</p></div><div style='background: #1a1a1a; border: 1px solid rgba(0,255,255,0.2); border-radius: 12px; padding: 24px;'><div style='width: 64px; height: 64px; background: rgba(0,255,255,0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px;'><span style='color: #00ffff; font-size: 32px;'>💻</span></div><h3 style='color: #ffffff; font-size: 20px; font-weight: 700; margin-bottom: 12px;'>Iniciantes em Tecnologia</h3><p style='color: #9ca3af; line-height: 1.6;'>Comece no mundo digital sem conhecimento técnico</p></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-you-learn-section",
+      "elType": "section", 
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#000000",
+        "background_color_b": "#0f0f0f",
+        "padding": {"unit": "px", "top": "80", "right": "0", "bottom": "80", "left": "0"}
+      },
+      "elements": [
+        {
+          "id": "learn-column",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "learn-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "O Que Você Vai <span style='color: #00ffff;'>Aprender?</span>",
+                "size": "custom", 
+                "custom_size": {"unit": "px", "size": 48},
+                "color": "#ffffff",
+                "align": "center",
+                "margin": {"unit": "px", "bottom": "60"}
+              }
+            },
+            {
+              "id": "learn-content",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='max-width: 1000px; margin: 0 auto;'><div style='display: grid; gap: 32px;'><div style='display: flex; align-items: flex-start; gap: 16px; padding: 24px; background: rgba(26,26,26,0.5); border: 1px solid rgba(0,255,255,0.1); border-radius: 12px;'><div style='width: 48px; height: 48px; background: rgba(0,255,255,0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;'><span style='color: #00ffff; font-size: 24px;'>📈</span></div><div><h3 style='color: #ffffff; font-size: 20px; font-weight: 700; margin-bottom: 8px;'>Páginas de Vendas de Alto Impacto</h3><p style='color: #9ca3af; line-height: 1.6;'>Crie landing pages que convertem visitantes em clientes</p></div></div><div style='display: flex; align-items: flex-start; gap: 16px; padding: 24px; background: rgba(26,26,26,0.5); border: 1px solid rgba(0,255,255,0.1); border-radius: 12px;'><div style='width: 48px; height: 48px; background: rgba(0,255,255,0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;'><span style='color: #00ffff; font-size: 24px;'>⚙️</span></div><div><h3 style='color: #ffffff; font-size: 20px; font-weight: 700; margin-bottom: 8px;'>Formulários e Integrações Externas</h3><p style='color: #9ca3af; line-height: 1.6;'>Conecte Supabase, Analytics, Zapier e outras ferramentas</p></div></div><div style='display: flex; align-items: flex-start; gap: 16px; padding: 24px; background: rgba(26,26,26,0.5); border: 1px solid rgba(0,255,255,0.1); border-radius: 12px;'><div style='width: 48px; height: 48px; background: rgba(0,255,255,0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;'><span style='color: #00ffff; font-size: 24px;'>📱</span></div><div><h3 style='color: #ffffff; font-size: 20px; font-weight: 700; margin-bottom: 8px;'>Responsividade e Versão Mobile</h3><p style='color: #9ca3af; line-height: 1.6;'>Garanta que suas páginas funcionem em todos os dispositivos</p></div></div><div style='display: flex; align-items: flex-start; gap: 16px; padding: 24px; background: rgba(26,26,26,0.5); border: 1px solid rgba(0,255,255,0.1); border-radius: 12px;'><div style='width: 48px; height: 48px; background: rgba(0,255,255,0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;'><span style='color: #00ffff; font-size: 24px;'>✨</span></div><div><h3 style='color: #ffffff; font-size: 20px; font-weight: 700; margin-bottom: 8px;'>Design Estratégico para Conversão</h3><p style='color: #9ca3af; line-height: 1.6;'>Aplique técnicas de UX/UI que aumentam vendas</p></div></div><div style='display: flex; align-items: flex-start; gap: 16px; padding: 24px; background: rgba(26,26,26,0.5); border: 1px solid rgba(0,255,255,0.1); border-radius: 12px;'><div style='width: 48px; height: 48px; background: rgba(0,255,255,0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;'><span style='color: #00ffff; font-size: 24px;'>⚡</span></div><div><h3 style='color: #ffffff; font-size: 20px; font-weight: 700; margin-bottom: 8px;'>Gatilhos Visuais e Animações</h3><p style='color: #9ca3af; line-height: 1.6;'>Adicione movimento e interatividade às suas páginas</p></div></div><div style='display: flex; align-items: flex-start; gap: 16px; padding: 24px; background: rgba(26,26,26,0.5); border: 1px solid rgba(0,255,255,0.1); border-radius: 12px;'><div style='width: 48px; height: 48px; background: rgba(0,255,255,0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;'><span style='color: #00ffff; font-size: 24px;'>🌐</span></div><div><h3 style='color: #ffffff; font-size: 20px; font-weight: 700; margin-bottom: 8px;'>Publicação e Conexão de Domínio</h3><p style='color: #9ca3af; line-height: 1.6;'>Coloque sua página no ar com domínio personalizado</p></div></div></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-you-get-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#0f0f0f", 
+        "padding": {"unit": "px", "top": "80", "right": "0", "bottom": "80", "left": "0"}
+      },
+      "elements": [
+        {
+          "id": "get-column",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "get-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "O Que Você Vai <span style='color: #00ffff;'>Receber</span>",
+                "size": "custom",
+                "custom_size": {"unit": "px", "size": 48},
+                "color": "#ffffff",
+                "align": "center",
+                "margin": {"unit": "px", "bottom": "60"}
+              }
+            },
+            {
+              "id": "get-grid",
+              "elType": "widget", 
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px; max-width: 1200px; margin: 0 auto;'><div style='background: #1a1a1a; border: 1px solid rgba(0,255,255,0.2); border-radius: 12px; padding: 32px; text-align: center; height: 100%;'><div style='width: 64px; height: 64px; background: rgba(0,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 24px;'><span style='color: #00ffff; font-size: 32px;'>♾️</span></div><h3 style='color: #ffffff; font-size: 20px; font-weight: 700; margin-bottom: 16px;'>Acesso Vitalício às Aulas</h3><p style='color: #9ca3af; line-height: 1.6;'>Assista quantas vezes quiser, para sempre</p></div><div style='background: #1a1a1a; border: 1px solid rgba(0,255,255,0.2); border-radius: 12px; padding: 32px; text-align: center; height: 100%;'><div style='width: 64px; height: 64px; background: rgba(0,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 24px;'><span style='color: #00ffff; font-size: 32px;'>⬇️</span></div><h3 style='color: #ffffff; font-size: 20px; font-weight: 700; margin-bottom: 16px;'>Atualizações Gratuitas</h3><p style='color: #9ca3af; line-height: 1.6;'>Receba todas as novidades do curso sem pagar mais</p></div><div style='background: #1a1a1a; border: 1px solid rgba(0,255,255,0.2); border-radius: 12px; padding: 32px; text-align: center; height: 100%;'><div style='width: 64px; height: 64px; background: rgba(0,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 24px;'><span style='color: #00ffff; font-size: 32px;'>🎁</span></div><h3 style='color: #ffffff; font-size: 20px; font-weight: 700; margin-bottom: 16px;'>Templates Prontos para Uso</h3><p style='color: #9ca3af; line-height: 1.6;'>Modelos profissionais para acelerar seus projetos</p></div><div style='background: #1a1a1a; border: 1px solid rgba(0,255,255,0.2); border-radius: 12px; padding: 32px; text-align: center; height: 100%;'><div style='width: 64px; height: 64px; background: rgba(0,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 24px;'><span style='color: #00ffff; font-size: 32px;'>👥</span></div><h3 style='color: #ffffff; font-size: 20px; font-weight: 700; margin-bottom: 16px;'>Grupo Fechado no WhatsApp</h3><p style='color: #9ca3af; line-height: 1.6;'>Networking e suporte da comunidade</p></div><div style='background: #1a1a1a; border: 1px solid rgba(0,255,255,0.2); border-radius: 12px; padding: 32px; text-align: center; height: 100%;'><div style='width: 64px; height: 64px; background: rgba(0,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 24px;'><span style='color: #00ffff; font-size: 32px;'>🎧</span></div><h3 style='color: #ffffff; font-size: 20px; font-weight: 700; margin-bottom: 16px;'>Suporte Direto</h3><p style='color: #9ca3af; line-height: 1.6;'>Tire suas dúvidas via e-mail ou grupo</p></div><div style='background: #1a1a1a; border: 1px solid rgba(0,255,255,0.2); border-radius: 12px; padding: 32px; text-align: center; height: 100%;'><div style='width: 64px; height: 64px; background: rgba(0,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 24px;'><span style='color: #00ffff; font-size: 32px;'>🏆</span></div><h3 style='color: #ffffff; font-size: 20px; font-weight: 700; margin-bottom: 16px;'>Certificado de Conclusão</h3><p style='color: #9ca3af; line-height: 1.6;'>Comprove sua especialização em Lovable.dev</p></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testimonials-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#000000",
+        "padding": {"unit": "px", "top": "80", "right": "0", "bottom": "80", "left": "0"}
+      },
+      "elements": [
+        {
+          "id": "testimonials-column", 
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "testimonials-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "O Que Nossos <span style='color: #00ffff;'>Alunos Dizem</span>",
+                "size": "custom",
+                "custom_size": {"unit": "px", "size": 48},
+                "color": "#ffffff",
+                "align": "center", 
+                "margin": {"unit": "px", "bottom": "60"}
+              }
+            },
+            {
+              "id": "testimonials-grid",
+              "elType": "widget",
+              "widgetType": "text-editor", 
+              "settings": {
+                "editor": "<div style='display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 32px; max-width: 1200px; margin: 0 auto;'><div style='background: #1a1a1a; border: 1px solid rgba(0,255,255,0.2); border-radius: 12px; padding: 32px; position: relative;'><div style='position: absolute; top: 16px; right: 16px; color: rgba(0,255,255,0.3); font-size: 32px;'>\"</div><div style='display: flex; align-items: center; margin-bottom: 24px;'><div style='width: 64px; height: 64px; border-radius: 50%; background: rgba(0,255,255,0.2); display: flex; align-items: center; justify-content: center; margin-right: 16px;'><span style='color: #00ffff; font-size: 24px; font-weight: 700;'>L</span></div><div><h4 style='color: #ffffff; font-size: 18px; font-weight: 700; margin-bottom: 4px;'>Lucas F.</h4><p style='color: #9ca3af; font-size: 14px;'>Empreendedor Digital</p><div style='display: flex; margin-top: 4px;'><span style='color: #fbbf24;'>⭐⭐⭐⭐⭐</span></div></div></div><blockquote style='color: #d1d5db; font-size: 18px; line-height: 1.6; font-style: italic;'>\"Nunca imaginei que eu mesmo poderia fazer minha landing page! Curso maravilhoso, agora não dependo mais de ninguém.\"</blockquote></div><div style='background: #1a1a1a; border: 1px solid rgba(0,255,255,0.2); border-radius: 12px; padding: 32px; position: relative;'><div style='position: absolute; top: 16px; right: 16px; color: rgba(0,255,255,0.3); font-size: 32px;'>\"</div><div style='display: flex; align-items: center; margin-bottom: 24px;'><div style='width: 64px; height: 64px; border-radius: 50%; background: rgba(0,255,255,0.2); display: flex; align-items: center; justify-content: center; margin-right: 16px;'><span style='color: #00ffff; font-size: 24px; font-weight: 700;'>M</span></div><div><h4 style='color: #ffffff; font-size: 18px; font-weight: 700; margin-bottom: 4px;'>Marina S.</h4><p style='color: #9ca3af; font-size: 14px;'>Designer Freelancer</p><div style='display: flex; margin-top: 4px;'><span style='color: #fbbf24;'>⭐⭐⭐⭐⭐</span></div></div></div><blockquote style='color: #d1d5db; font-size: 18px; line-height: 1.6; font-style: italic;'>\"O Lovable mudou completamente meu workflow. Consigo entregar projetos 3x mais rápido e com qualidade profissional.\"</blockquote></div><div style='background: #1a1a1a; border: 1px solid rgba(0,255,255,0.2); border-radius: 12px; padding: 32px; position: relative;'><div style='position: absolute; top: 16px; right: 16px; color: rgba(0,255,255,0.3); font-size: 32px;'>\"</div><div style='display: flex; align-items: center; margin-bottom: 24px;'><div style='width: 64px; height: 64px; border-radius: 50%; background: rgba(0,255,255,0.2); display: flex; align-items: center; justify-content: center; margin-right: 16px;'><span style='color: #00ffff; font-size: 24px; font-weight: 700;'>C</span></div><div><h4 style='color: #ffffff; font-size: 18px; font-weight: 700; margin-bottom: 4px;'>Carlos R.</h4><p style='color: #9ca3af; font-size: 14px;'>Agência de Marketing</p><div style='display: flex; margin-top: 4px;'><span style='color: #fbbf24;'>⭐⭐⭐⭐⭐</span></div></div></div><blockquote style='color: #d1d5db; font-size: 18px; line-height: 1.6; font-style: italic;'>\"Implementamos o Lovable na nossa agência e aumentamos nossa margem de lucro em 40%. Recomendo demais!\"</blockquote></div><div style='background: #1a1a1a; border: 1px solid rgba(0,255,255,0.2); border-radius: 12px; padding: 32px; position: relative;'><div style='position: absolute; top: 16px; right: 16px; color: rgba(0,255,255,0.3); font-size: 32px;'>\"</div><div style='display: flex; align-items: center; margin-bottom: 24px;'><div style='width: 64px; height: 64px; border-radius: 50%; background: rgba(0,255,255,0.2); display: flex; align-items: center; justify-content: center; margin-right: 16px;'><span style='color: #00ffff; font-size: 24px; font-weight: 700;'>A</span></div><div><h4 style='color: #ffffff; font-size: 18px; font-weight: 700; margin-bottom: 4px;'>Ana P.</h4><p style='color: #9ca3af; font-size: 14px;'>Coach Online</p><div style='display: flex; margin-top: 4px;'><span style='color: #fbbf24;'>⭐⭐⭐⭐⭐</span></div></div></div><blockquote style='color: #d1d5db; font-size: 18px; line-height: 1.6; font-style: italic;'>\"Em 2 semanas já estava criando minhas próprias páginas de captura. O curso é didático e muito prático!\"</blockquote></div></div>"
+              }
+            },
+            {
+              "id": "testimonials-stats",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px; max-width: 800px; margin: 64px auto 0;'><div style='background: rgba(26,26,26,0.5); border: 1px solid rgba(0,255,255,0.1); border-radius: 12px; padding: 24px; text-align: center;'><div style='font-size: 48px; font-weight: 900; color: #00ffff; margin-bottom: 8px;'>500+</div><div style='color: #d1d5db;'>Alunos Satisfeitos</div></div><div style='background: rgba(26,26,26,0.5); border: 1px solid rgba(0,255,255,0.1); border-radius: 12px; padding: 24px; text-align: center;'><div style='font-size: 48px; font-weight: 900; color: #00ffff; margin-bottom: 8px;'>98%</div><div style='color: #d1d5db;'>Taxa de Aprovação</div></div><div style='background: rgba(26,26,26,0.5); border: 1px solid rgba(0,255,255,0.1); border-radius: 12px; padding: 24px; text-align: center;'><div style='font-size: 48px; font-weight: 900; color: #00ffff; margin-bottom: 8px;'>4.9★</div><div style='color: #d1d5db;'>Avaliação Média</div></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bonus-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "gradient", 
+        "background_color": "#0f0f0f",
+        "background_color_b": "#000000",
+        "padding": {"unit": "px", "top": "80", "right": "0", "bottom": "80", "left": "0"}
+      },
+      "elements": [
+        {
+          "id": "bonus-column",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "bonus-badge",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='text-align: center; margin-bottom: 24px;'><div style='display: inline-flex; align-items: center; padding: 8px 16px; border-radius: 9999px; background: rgba(0,255,255,0.2); border: 1px solid rgba(0,255,255,0.4);'><span style='color: #00ffff; font-size: 20px; margin-right: 8px;'>🎁</span><span style='color: #00ffff; font-weight: 600;'>Bônus Exclusivos</span></div></div>",
+                "align": "center"
+              }
+            },
+            {
+              "id": "bonus-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Mas Espera, <span style='color: #00ffff;'>Tem Mais!</span>",
+                "size": "custom",
+                "custom_size": {"unit": "px", "size": 48},
+                "color": "#ffffff",
+                "align": "center",
+                "margin": {"unit": "px", "bottom": "60"}
+              }
+            },
+            {
+              "id": "bonus-grid",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px; max-width: 1000px; margin: 0 auto;'><div style='position: relative; background: #1a1a1a; border: 2px solid rgba(0,255,255,0.3); border-radius: 12px; padding: 32px; text-align: center;'><div style='position: absolute; top: 16px; right: 16px; background: #00ffff; color: #000000; font-size: 12px; font-weight: 700; padding: 4px 8px; border-radius: 9999px;'>BÔNUS</div><div style='width: 80px; height: 80px; background: rgba(0,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 24px;'><span style='color: #00ffff; font-size: 40px;'>🎁</span></div><h3 style='color: #ffffff; font-size: 20px; font-weight: 700; margin-bottom: 16px;'>Template Exclusivo de Página de Vendas</h3><p style='color: #9ca3af; line-height: 1.6; margin-bottom: 24px;'>Uma landing page completa e pronta para você personalizar</p><div style='text-center;'><div style='font-size: 32px; font-weight: 900; color: #00ffff; margin-bottom: 4px;'>R$ 197</div><div style='color: #6b7280; font-size: 14px; text-decoration: line-through; margin-bottom: 8px;'>Valor: R$ 197</div><div style='color: #10b981; font-weight: 600;'>GRÁTIS para você!</div></div></div><div style='position: relative; background: #1a1a1a; border: 2px solid rgba(0,255,255,0.3); border-radius: 12px; padding: 32px; text-align: center;'><div style='position: absolute; top: 16px; right: 16px; background: #00ffff; color: #000000; font-size: 12px; font-weight: 700; padding: 4px 8px; border-radius: 9999px;'>BÔNUS</div><div style='width: 80px; height: 80px; background: rgba(0,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 24px;'><span style='color: #00ffff; font-size: 40px;'>📄</span></div><h3 style='color: #ffffff; font-size: 20px; font-weight: 700; margin-bottom: 16px;'>Planilha de Planejamento</h3><p style='color: #9ca3af; line-height: 1.6; margin-bottom: 24px;'>Ferramenta para estruturar suas páginas antes de criar</p><div style='text-center;'><div style='font-size: 32px; font-weight: 900; color: #00ffff; margin-bottom: 4px;'>R$ 97</div><div style='color: #6b7280; font-size: 14px; text-decoration: line-through; margin-bottom: 8px;'>Valor: R$ 97</div><div style='color: #10b981; font-weight: 600;'>GRÁTIS para você!</div></div></div><div style='position: relative; background: #1a1a1a; border: 2px solid rgba(0,255,255,0.3); border-radius: 12px; padding: 32px; text-align: center;'><div style='position: absolute; top: 16px; right: 16px; background: #00ffff; color: #000000; font-size: 12px; font-weight: 700; padding: 4px 8px; border-radius: 9999px;'>BÔNUS</div><div style='width: 80px; height: 80px; background: rgba(0,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 24px;'><span style='color: #00ffff; font-size: 40px;'>⚡</span></div><h3 style='color: #ffffff; font-size: 20px; font-weight: 700; margin-bottom: 16px;'>Mini-aula: Automatizando com Zapier</h3><p style='color: #9ca3af; line-height: 1.6; margin-bottom: 24px;'>Como conectar suas páginas com outras ferramentas</p><div style='text-center;'><div style='font-size: 32px; font-weight: 900; color: #00ffff; margin-bottom: 4px;'>R$ 147</div><div style='color: #6b7280; font-size: 14px; text-decoration: line-through; margin-bottom: 8px;'>Valor: R$ 147</div><div style='color: #10b981; font-weight: 600;'>GRÁTIS para você!</div></div></div></div>"
+              }
+            },
+            {
+              "id": "bonus-total",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='text-align: center; margin-top: 64px;'><div style='display: inline-block; background: linear-gradient(135deg, rgba(0,255,255,0.3) 0%, rgba(0,255,255,0.1) 100%); border: 2px solid rgba(0,255,255,0.5); border-radius: 16px; padding: 32px;'><h3 style='color: #ffffff; font-size: 32px; font-weight: 900; margin-bottom: 16px;'>Valor Total dos Bônus</h3><div style='font-size: 60px; font-weight: 900; color: #00ffff; margin-bottom: 8px;'>R$ 441</div><p style='color: #d1d5db; font-size: 20px;'>Mas você recebe <span style='color: #10b981; font-weight: 700;'>GRÁTIS</span> com o curso!</p></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guarantee-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#000000",
+        "padding": {"unit": "px", "top": "80", "right": "0", "bottom": "80", "left": "0"}
+      },
+      "elements": [
+        {
+          "id": "guarantee-column",
+          "elType": "column", 
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "guarantee-icon",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='text-align: center; margin-bottom: 32px;'><div style='position: relative; display: inline-block;'><div style='width: 128px; height: 128px; background: rgba(0,255,255,0.1); border: 4px solid rgba(0,255,255,0.3); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto;'><span style='color: #00ffff; font-size: 64px;'>🛡️</span></div></div></div>",
+                "align": "center"
+              }
+            },
+            {
+              "id": "guarantee-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "<span style='color: #00ffff;'>Garantia</span> Incondicional",
+                "size": "custom",
+                "custom_size": {"unit": "px", "size": 48},
+                "color": "#ffffff",
+                "align": "center",
+                "margin": {"unit": "px", "bottom": "32"}
+              }
+            },
+            {
+              "id": "guarantee-content",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='max-width: 800px; margin: 0 auto;'><div style='background: #1a1a1a; border: 1px solid rgba(0,255,255,0.3); border-radius: 16px; padding: 32px; margin-bottom: 32px;'><div style='display: flex; align-items: center; justify-content: center; margin-bottom: 24px;'><span style='color: #00ffff; font-size: 32px; margin-right: 12px;'>🕐</span><span style='color: #00ffff; font-size: 32px; font-weight: 700;'>7 DIAS</span></div><p style='color: #d1d5db; font-size: 20px; line-height: 1.6; text-align: center; margin-bottom: 24px;'>Você tem <span style='color: #00ffff; font-weight: 700;'>7 dias de garantia incondicional</span>. Se não gostar do curso por qualquer motivo, é só pedir e <span style='color: #10b981; font-weight: 700;'>devolvemos 100% do valor</span>.</p><div style='display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; margin-top: 32px;'><div style='display: flex; align-items: center; justify-content: center;'><span style='color: #10b981; margin-right: 8px;'>✅</span><span style='color: #d1d5db;'>Sem perguntas</span></div><div style='display: flex; align-items: center; justify-content: center;'><span style='color: #10b981; margin-right: 8px;'>✅</span><span style='color: #d1d5db;'>Sem burocracia</span></div><div style='display: flex; align-items: center; justify-content: center;'><span style='color: #10b981; margin-right: 8px;'>✅</span><span style='color: #d1d5db;'>100% do dinheiro de volta</span></div></div></div><div style='background: rgba(0,255,255,0.1); border: 1px solid rgba(0,255,255,0.2); border-radius: 12px; padding: 24px; text-align: center;'><h3 style='color: #ffffff; font-size: 24px; font-weight: 700; margin-bottom: 12px;'>Por que oferecemos essa garantia?</h3><p style='color: #d1d5db; line-height: 1.6;'>Porque temos total confiança na qualidade do nosso curso. Sabemos que você vai amar o conteúdo e ver resultados reais!</p></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pricing-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#000000",
+        "background_color_b": "#0f0f0f",
+        "padding": {"unit": "px", "top": "80", "right": "0", "bottom": "80", "left": "0"}
+      },
+      "elements": [
+        {
+          "id": "pricing-column",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "pricing-badge",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='text-align: center; margin-bottom: 24px;'><div style='display: inline-flex; align-items: center; padding: 8px 16px; border-radius: 9999px; background: rgba(239,68,68,0.2); border: 1px solid rgba(239,68,68,0.4);'><span style='color: #ef4444; font-size: 20px; margin-right: 8px;'>⚠️</span><span style='color: #ef4444; font-weight: 600;'>Oferta Limitada</span></div></div>",
+                "align": "center"
+              }
+            },
+            {
+              "id": "pricing-title",
+              "elType": "widget",
+              "widgetType": "heading", 
+              "settings": {
+                "title": "Investimento <span style='color: #00ffff;'>Especial</span>",
+                "size": "custom",
+                "custom_size": {"unit": "px", "size": 48},
+                "color": "#ffffff",
+                "align": "center",
+                "margin": {"unit": "px", "bottom": "60"}
+              }
+            },
+            {
+              "id": "pricing-card",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='max-width: 600px; margin: 0 auto;'><div style='position: relative; background: #1a1a1a; border: 2px solid rgba(0,255,255,0.4); border-radius: 16px; padding: 48px;'><div style='text-align: center; margin-bottom: 32px;'><div style='display: inline-block; background: rgba(0,255,255,0.2); border-radius: 9999px; padding: 8px 16px; margin-bottom: 16px;'><span style='color: #00ffff; font-weight: 700; font-size: 14px;'>PROMOÇÃO DE LANÇAMENTO</span></div><div style='margin-bottom: 24px;'><div style='color: #9ca3af; font-size: 18px; margin-bottom: 8px;'>De:</div><div style='color: #6b7280; font-size: 32px; text-decoration: line-through; font-weight: 700; margin-bottom: 8px;'>R$ 297</div><div style='color: #9ca3af; font-size: 14px; margin-bottom: 16px;'>Valor normal do curso</div><div style='color: #d1d5db; font-size: 20px; margin-bottom: 8px;'>Por apenas:</div><div style='color: #00ffff; font-size: 72px; font-weight: 900; margin-bottom: 8px;'>R$ 97</div><div style='color: #9ca3af;'>ou 12x de R$ 8,08 no cartão</div></div><div style='background: rgba(16,185,129,0.2); border: 1px solid rgba(16,185,129,0.4); border-radius: 12px; padding: 16px; margin-bottom: 32px;'><div style='color: #10b981; font-weight: 700; font-size: 18px;'>🎯 Economia de R$ 200 (67% OFF)</div></div></div><div style='margin-bottom: 32px;'><div style='display: flex; align-items: center; color: #d1d5db; margin-bottom: 16px;'><span style='color: #00ffff; margin-right: 12px;'>⚡</span><span>Acesso imediato após o pagamento</span></div><div style='display: flex; align-items: center; color: #d1d5db; margin-bottom: 16px;'><span style='color: #00ffff; margin-right: 12px;'>💳</span><span>Parcelamento sem juros no cartão</span></div><div style='display: flex; align-items: center; color: #d1d5db;'><span style='color: #00ffff; margin-right: 12px;'>⚠️</span><span>Garantia de 7 dias ou seu dinheiro de volta</span></div></div><a href='#formulario' style='display: block; width: 100%; background: #00ffff; color: #000000; font-weight: 900; font-size: 20px; padding: 16px; border-radius: 12px; text-align: center; text-decoration: none; transition: all 0.3s ease;'>🚀 QUERO GARANTIR MINHA VAGA</a><div style='text-align: center; margin-top: 24px;'><div style='color: #ef4444; font-weight: 600; font-size: 14px; margin-bottom: 4px;'>⏰ Oferta válida por tempo limitado</div><div style='color: #9ca3af; font-size: 12px;'>Restam poucas vagas com desconto</div></div></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "order-form-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#0f0f0f",
+        "padding": {"unit": "px", "top": "80", "right": "0", "bottom": "80", "left": "0"}
+      },
+      "elements": [
+        {
+          "id": "form-column",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "form-title",
+              "elType": "widget", 
+              "widgetType": "heading",
+              "settings": {
+                "title": "Garanta Sua <span style='color: #00ffff;'>Vaga Agora</span>",
+                "size": "custom",
+                "custom_size": {"unit": "px", "size": 48},
+                "color": "#ffffff",
+                "align": "center",
+                "margin": {"unit": "px", "bottom": "48"}
+              }
+            },
+            {
+              "id": "order-form",
+              "elType": "widget",
+              "widgetType": "shortcode",
+              "settings": {
+                "shortcode": "[contact-form-7 id=\"formulario\" title=\"Formulário Lovable Pro\"]"
+              }
+            },
+            {
+              "id": "form-html",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style='max-width: 600px; margin: 0 auto;'><div style='background: #1a1a1a; border: 1px solid rgba(0,255,255,0.3); border-radius: 16px; padding: 48px;'><form id='formulario' style='margin-bottom: 32px;'><div style='margin-bottom: 24px;'><label style='display: block; color: #ffffff; font-weight: 600; margin-bottom: 8px;'><span style='color: #00ffff; margin-right: 8px;'>👤</span>Nome Completo</label><input type='text' name='name' required style='width: 100%; padding: 12px 16px; background: #000000; border: 1px solid rgba(0,255,255,0.2); border-radius: 8px; color: #ffffff; font-size: 16px;' placeholder='Digite seu nome completo'></div><div style='margin-bottom: 24px;'><label style='display: block; color: #ffffff; font-weight: 600; margin-bottom: 8px;'><span style='color: #00ffff; margin-right: 8px;'>📧</span>E-mail</label><input type='email' name='email' required style='width: 100%; padding: 12px 16px; background: #000000; border: 1px solid rgba(0,255,255,0.2); border-radius: 8px; color: #ffffff; font-size: 16px;' placeholder='seu@email.com'></div><div style='margin-bottom: 24px;'><label style='display: block; color: #ffffff; font-weight: 600; margin-bottom: 8px;'><span style='color: #00ffff; margin-right: 8px;'>💳</span>Forma de Pagamento</label><select name='payment' style='width: 100%; padding: 12px 16px; background: #000000; border: 1px solid rgba(0,255,255,0.2); border-radius: 8px; color: #ffffff; font-size: 16px;'><option value='card'>Cartão de Crédito (12x sem juros)</option><option value='pix'>PIX (À vista com desconto)</option><option value='boleto'>Boleto Bancário</option></select></div><div style='background: rgba(0,0,0,0.5); border: 1px solid rgba(0,255,255,0.2); border-radius: 12px; padding: 24px; margin-bottom: 24px;'><h3 style='color: #ffffff; font-weight: 700; font-size: 18px; margin-bottom: 16px;'>Resumo do Pedido</h3><div style='color: #d1d5db; margin-bottom: 12px;'><div style='display: flex; justify-content: space-between; margin-bottom: 8px;'><span>Curso Lovable Pro</span><span style='text-decoration: line-through; color: #6b7280;'>R$ 297</span></div><div style='display: flex; justify-content: space-between; margin-bottom: 8px;'><span>Bônus Inclusos</span><span style='text-decoration: line-through; color: #6b7280;'>R$ 441</span></div><div style='border-top: 1px solid rgba(0,255,255,0.2); padding-top: 12px; margin-top: 12px;'><div style='display: flex; justify-content: space-between; font-size: 18px; font-weight: 700; color: #ffffff;'><span>Total</span><span style='color: #00ffff;'>R$ 97</span></div></div></div></div><div style='margin-bottom: 24px;'><div style='display: flex; align-items: center; color: #d1d5db; margin-bottom: 12px;'><span style='color: #10b981; margin-right: 12px;'>✅</span><span style='font-size: 14px;'>Acesso imediato após a confirmação do pagamento</span></div><div style='display: flex; align-items: center; color: #d1d5db; margin-bottom: 12px;'><span style='color: #10b981; margin-right: 12px;'>✅</span><span style='font-size: 14px;'>7 dias de garantia incondicional</span></div><div style='display: flex; align-items: center; color: #d1d5db;'><span style='color: #10b981; margin-right: 12px;'>✅</span><span style='font-size: 14px;'>Todos os bônus inclusos sem custo adicional</span></div></div><button type='submit' style='width: 100%; background: #00ffff; color: #000000; font-weight: 900; font-size: 20px; padding: 16px; border: none; border-radius: 12px; cursor: pointer; display: flex; align-items: center; justify-content: center;'><span style='margin-right: 8px;'>🔒</span>FINALIZAR COMPRA SEGURA</button></form><div style='text-align: center; color: #9ca3af; font-size: 14px;'>🔒 Compra 100% segura e protegida</div></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#000000",
+        "padding": {"unit": "px", "top": "80", "right": "0", "bottom": "80", "left": "0"}
+      },
+      "elements": [
+        {
+          "id": "faq-column",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "faq-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Perguntas <span style='color: #00ffff;'>Frequentes</span>",
+                "size": "custom",
+                "custom_size": {"unit": "px", "size": 48},
+                "color": "#ffffff", 
+                "align": "center",
+                "margin": {"unit": "px", "bottom": "60"}
+              }
+            },
+            {
+              "id": "faq-accordion",
+              "elType": "widget",
+              "widgetType": "accordion",
+              "settings": {
+                "tabs": [
+                  {
+                    "tab_title": "Preciso saber programar?",
+                    "tab_content": "Nada! O Lovable é 100% visual e prático. Você vai criar páginas arrastando e soltando elementos, sem escrever uma linha de código."
+                  },
+                  {
+                    "tab_title": "As aulas são ao vivo?",
+                    "tab_content": "Não, você assiste no seu tempo, onde e quando quiser. O curso fica disponível 24/7 para você acessar quando for conveniente."
+                  },
+                  {
+                    "tab_title": "Quanto tempo tenho para concluir o curso?",
+                    "tab_content": "O acesso é vitalício! Você pode assistir as aulas quantas vezes quiser e no seu próprio ritmo, sem pressa."
+                  },
+                  {
+                    "tab_title": "O curso funciona para iniciantes?",
+                    "tab_content": "Sim! O curso foi pensado para quem está começando do zero. Explicamos tudo passo a passo, desde o básico até estratégias avançadas."
+                  },
+                  {
+                    "tab_title": "Vou conseguir criar páginas profissionais?",
+                    "tab_content": "Absolutamente! Ao final do curso você será capaz de criar páginas de vendas, landing pages e portfólios com qualidade profissional."
+                  },
+                  {
+                    "tab_title": "Como funciona a garantia?",
+                    "tab_content": "Você tem 7 dias corridos para testar o curso. Se não gostar por qualquer motivo, devolvemos 100% do seu dinheiro, sem perguntas."
+                  }
+                ],
+                "border_width": {"unit": "px", "size": 1},
+                "border_color": "rgba(0,255,255,0.2)",
+                "title_background": "#1a1a1a",
+                "title_color": "#ffffff",
+                "content_background": "#1a1a1a",
+                "content_color": "#d1d5db"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "final-cta-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#0f0f0f", 
+        "background_color_b": "#000000",
+        "padding": {"unit": "px", "top": "80", "right": "0", "bottom": "80", "left": "0"}
+      },
+      "elements": [
+        {
+          "id": "final-cta-column",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "final-badge",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='text-align: center; margin-bottom: 32px;'><div style='display: inline-flex; align-items: center; padding: 8px 16px; border-radius: 9999px; background: rgba(239,68,68,0.2); border: 1px solid rgba(239,68,68,0.4);'><span style='color: #ef4444; font-size: 20px; margin-right: 8px;'>🕐</span><span style='color: #ef4444; font-weight: 600;'>ÚLTIMA CHANCE</span></div></div>",
+                "align": "center"
+              }
+            },
+            {
+              "id": "final-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "As Vagas com Preço <span style='color: #00ffff;'>Promocional</span> são Limitadas",
+                "size": "custom",
+                "custom_size": {"unit": "px", "size": 56},
+                "color": "#ffffff",
+                "align": "center",
+                "margin": {"unit": "px", "bottom": "32"}
+              }
+            },
+            {
+              "id": "final-subtitle",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='font-size: 24px; color: #d1d5db; text-align: center; margin-bottom: 48px; line-height: 1.5;'>👉 Garanta agora sua vaga antes que acabe e transforme sua carreira no mundo digital</p>",
+                "align": "center"
+              }
+            },
+            {
+              "id": "final-stats",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; max-width: 800px; margin: 0 auto 48px;'><div style='background: rgba(26,26,26,0.5); border: 1px solid rgba(0,255,255,0.2); border-radius: 12px; padding: 24px; text-align: center;'><div style='font-size: 48px; font-weight: 900; color: #00ffff; margin-bottom: 8px;'>67%</div><div style='color: #d1d5db; margin-bottom: 4px;'>De Desconto</div><div style='color: #9ca3af; font-size: 14px;'>Por tempo limitado</div></div><div style='background: rgba(26,26,26,0.5); border: 1px solid rgba(0,255,255,0.2); border-radius: 12px; padding: 24px; text-align: center;'><div style='font-size: 48px; font-weight: 900; color: #00ffff; margin-bottom: 8px;'>R$ 441</div><div style='color: #d1d5db; margin-bottom: 4px;'>Em Bônus</div><div style='color: #9ca3af; font-size: 14px;'>Totalmente grátis</div></div><div style='background: rgba(26,26,26,0.5); border: 1px solid rgba(0,255,255,0.2); border-radius: 12px; padding: 24px; text-align: center;'><div style='font-size: 48px; font-weight: 900; color: #00ffff; margin-bottom: 8px;'>7 Dias</div><div style='color: #d1d5db; margin-bottom: 4px;'>De Garantia</div><div style='color: #9ca3af; font-size: 14px;'>Risco zero para você</div></div></div>"
+              }
+            },
+            {
+              "id": "final-cta-button",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "⚡ QUERO ME INSCREVER AGORA",
+                "size": "xl",
+                "background_color": "#00ffff",
+                "color": "#000000",
+                "typography_font_weight": "900",
+                "typography_font_size": {"unit": "px", "size": 24},
+                "border_radius": {"unit": "px", "size": 12},
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {"horizontal": 0, "vertical": 0, "blur": 30, "spread": 0, "color": "rgba(0,255,255,0.5)"},
+                "align": "center",
+                "link": {"url": "#formulario", "is_external": "", "nofollow": ""},
+                "margin": {"unit": "px", "bottom": "32"}
+              }
+            },
+            {
+              "id": "final-security",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='text-align: center; color: #9ca3af;'><div style='margin-bottom: 8px;'>🔒 Compra 100% segura e protegida</div><div style='margin-bottom: 8px;'>⚡ Acesso imediato após confirmação do pagamento</div><div>🎯 Aproveite enquanto ainda há vagas disponíveis</div></div>",
+                "align": "center"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
